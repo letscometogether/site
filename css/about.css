@@ -1,0 +1,208 @@
+.about{
+    display: flex;
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.left{
+    width: 50%;
+    display: flex;
+}
+
+.rights{
+    width: 50%;
+    padding: 20px;
+}
+
+/* .twoPictures {
+    margin-left: 50px;
+} */
+
+.entreprenuer img {
+    margin-top: 120px;
+    border: 10px solid darkolivegreen;
+    width: 350px;
+    height: 420px;
+}
+
+.women img {
+    width: 200px;
+    border: 10px solid #B8252A;;
+    margin-left: -150px;
+    height: 200px;
+}
+
+.robotics img {
+    width: 200px;
+    height: 200px;
+    margin-left: -50px;
+    border: 10px solid darkgray;
+}
+
+.employment img {
+    width: 200px;
+    height: 200px;
+    margin-left: -150px;
+    border: 10px solid #B8252A;;
+}
+
+/* WHAT TO DO? */
+
+.todo {
+    padding: 10px;
+}
+
+.todo p{
+    font-size: small;
+    font-weight: bold;
+    letter-spacing: 1.5;
+    color: #B8252A;;
+}
+
+.todo ul li {
+    list-style: none;
+    font-weight: lighter;
+    color: #B8252A;;
+    font-size: small;
+    border-left: 30px solid #B8252A;;
+    padding-left: 10px;
+}
+
+/* WHY ARE WE DOING IT? */
+.why {
+    padding: 10px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.why p{
+    font-size: small;
+    font-weight: bold;
+    letter-spacing: 1.5;
+    color: darkolivegreen;
+}
+
+.why ul li {
+    list-style: none;
+    font-weight: lighter;
+    color: darkolivegreen;
+    font-size: small;
+    border-left: 30px solid darkolivegreen;
+    padding-left: 10px;
+}
+
+/* HOW TO DO IT? */
+
+.how {
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.how p{
+    font-size: small;
+    font-weight: bold;
+    letter-spacing: 1.5;
+    color: #B8252A;;
+}
+
+.how ul li {
+    list-style: none;
+    font-weight: lighter;
+    color: #B8252A;;
+    font-size: small;
+    border-left: 30px solid #B8252A;;
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 1200px){
+
+   .robotics img{
+    width: 180px;
+   }
+
+   .women img{
+    width: 180px;
+   }
+
+   .entreprenuer img{
+    width: 300px;
+   }
+
+   .employment img{
+    width: 180px;
+   }
+
+   .todo {
+   width: 400px;
+   }
+
+   .how{
+    width: 400px;
+   }
+
+   .why {
+    width: 400px;
+   }
+    
+    }
+
+
+    @media screen and (max-width: 1050px){
+
+        .robotics img{
+         width: 150px;
+        }
+     
+        .women img{
+         width: 150px;
+        }
+     
+        .entreprenuer img{
+         width: 250px;
+        }
+     
+        .employment img{
+         width: 150px;
+        }
+
+        .todo {
+            width: 450px;
+            }
+         
+            .why{
+             width: 400px;
+             margin: 50px;
+            }
+         
+            .how {
+             width: 400px;
+            
+            }
+         
+         }
+
+         @media screen and (max-width: 870px){  
+            .left {
+                display: none;
+            }
+
+                .why{
+                    margin-left: 0;
+                }
+
+                .todo {
+                    width: 350px;
+                    }
+                 
+                    .why{
+                     width: 350px;
+                     margin: 0px;
+                    }
+                 
+                    .how {
+                     width: 350px;
+                    
+                    }
+            
+         }

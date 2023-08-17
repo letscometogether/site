@@ -1,0 +1,163 @@
+.blackFooter {
+    background-color: darkgray;
+    height: 350px;
+}
+
+.footer {
+    display: flex;
+    padding: 20px;
+}
+
+.contactUs {
+    padding: 20px;
+}
+
+.contactUs p {
+    font-weight: bold;
+    font-size: small;
+    color:  #B8252A;
+    
+ padding-left: 40px;
+}
+
+.contactUs ul li {
+    list-style: none;
+    font-size: small;
+    color: white;
+    /* border-right: 1px solid  #B8252A; */
+}
+
+.getInTouchFooter li a {
+    text-decoration: none;
+    font-size: small;
+    color: white;
+    border-left: 10px solid  #B8252A;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.getInTouchFooter .donateFoot {
+    background-color: white;
+    text-decoration: none;
+    color: darkgray;
+    font-weight: lighter;
+    font-size: small;
+    padding: 15px;
+    margin-left: 5px;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 50px; 
+    margin-bottom: 100px;
+}
+
+.getInTouchFooter .volunteerFoot{
+    background-color: white;
+    text-decoration: none;
+    color: darkgray;
+    font-weight: lighter;
+    font-size: small;
+    padding: 15px;
+    margin-left: 5px;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.footerMenu {
+    padding: 20px;
+}
+
+.footerMenu p{
+    
+ padding-left: 42px;
+    font-weight: bold;
+    font-size: small;
+    color:  #B8252A;
+}
+
+.footerMenu ul li {
+    text-decoration: none;
+    font-size: small;
+    color: white;
+    list-style: none;
+    /* border-right: 1px solid  #B8252A; */
+}
+
+.fnav li a {
+    text-decoration: none;
+    color: white;
+    margin: 3px;
+}
+
+.fnav li a:hover {
+    color:  #B8252A;
+}
+
+.logoFooter {
+    width: 180px;
+    padding-top: 15px;
+}
+
+.footerForm{
+    padding: 20px;
+}
+
+.footerForm p{
+    font-weight: bold;
+    font-size: small;
+    color:  #B8252A;
+    
+ padding-left: 35px;
+
+}
+
+.footForm input{
+    background-color: white;
+    width: 170px;
+    padding: 10px;
+    border: 0;
+    margin: 5px;
+    font-weight: lighter;
+    color: white;
+    font-size: small;
+
+}
+
+.footerForm .email {
+    margin-bottom: 20px;
+}
+
+.footForm {
+
+ padding-left: 10px;
+}
+
+
+
+@media screen and (max-width: 910px){
+
+    .footer{
+        display: block;
+
+    }
+
+    .blackFooter{
+        height: 1200px;
+    }
+
+    .footForm {
+        width: 80%;
+    }
+
+    .footerForm a{
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+
+}
+
+
+
+

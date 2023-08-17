@@ -1,0 +1,75 @@
+.background {
+    background-image: url("../images/fire.jpg");
+    height: 650px;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overlayer {
+    background-color: rgba(0, 0, 0, 0.543);
+    height: 650px;
+}
+
+.landing h1 {
+    color: white;
+    letter-spacing: 1.5;
+    font-style: inherit;
+    /* color: darkred; */
+    /* font-family: fantasy; */
+    padding: 20px;
+}
+
+.landing p {
+    color: white;
+    font-weight: lighter;
+    padding-left: 20px;
+    font-size: small;
+}
+
+.buttons {
+    display: flex;
+    padding: 20px;
+}
+
+.buttons a {
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    font-weight: lighter;
+    font-size: small;
+    border: 0;
+}
+
+.red {
+    background-color: #B8252A;;
+    border-radius: 5px;
+    margin: 20px;
+    border: 0;
+}
+
+.blue {
+    background-color: darkolivegreen;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+@media screen and (max-width: 540px){
+
+    .background {
+        height: 900px
+    }
+   .landing h1{
+    margin-left: -100px;
+   }
+
+   .landing p {
+    margin-left: -100px;
+    padding-bottom: 30px;
+   }
+
+   .overlayer {
+    height: 900px;
+   }
+       
+}

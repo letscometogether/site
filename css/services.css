@@ -1,0 +1,168 @@
+#services{
+    margin-top: -100px;
+}
+
+.services{
+    display: flex;
+}
+
+.green{
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    height: 130px;
+    background-color: darkolivegreen;
+}
+
+.green p {
+    font-weight: bold;
+    font-size: small;
+    color: white;
+}
+
+.green li {
+    list-style: none;
+    padding-left: 10px;
+    font-weight: lighter;
+    font-size: small;
+    color: white;
+    border-left: 20px solid white;
+}
+
+.black{
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    height: 130px;
+    background-color: darkgray;
+    
+}
+
+.black p {
+    font-weight: bold;
+    font-size: small;
+    color: white;
+}
+
+.black li {
+    list-style: none;
+    padding-left: 10px;
+    font-weight: lighter;
+    font-size: small;
+    color: white;
+    border-left: 20px solid white;
+}
+
+.yellow{
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    height: 130px;
+    background-color: #B8252A;;
+}
+
+.yellow p {
+    font-weight: bold;
+    font-size: small;
+    color: white;
+}
+
+.yellow li {
+    list-style: none;
+    padding-left: 10px;
+    font-weight: lighter;
+    font-size: small;
+    color: white;
+    border-left: 20px solid white;
+}
+
+@media screen and (max-width: 920px){
+
+    .black{
+        height: 150px;
+    }
+
+    .yellow{
+        height: 150px;
+    }
+
+    .green{
+        height: 150px;
+    }
+       
+}
+
+@media screen and (max-width: 840px){
+
+    .black{
+        height: 200px;
+    }
+
+    .yellow{
+        height: 200px;
+    }
+
+    .green{
+        height: 200px;
+    }
+    
+}
+
+@media screen and (max-width: 670px){
+
+    .services {
+        display: block;
+    }
+
+    .black{
+        height: 130px;
+        width: 300px;
+    }
+
+    .yellow{
+        height: 130px;
+        width: 300px;
+    }
+
+    .green{
+        height: 130px;
+        width: 300px;
+    }
+       
+}
+
+@media screen and (max-width: 670px){
+
+
+    .black{
+        width: 250px;
+    }
+
+    .yellow{
+        width: 250px;
+    }
+
+    .green{
+        width: 250px;
+    }
+       
+}
+
+@media screen and (max-width: 385px){
+
+
+    .black{
+        width: 220px;
+    }
+
+    .yellow{
+        width: 220px;
+    }
+
+    .green{
+        width: 220px;
+    }
+       
+}
+
+
